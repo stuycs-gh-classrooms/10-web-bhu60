@@ -19,6 +19,7 @@ li{
 p{
   text-align: center;
 }
-a{
+a,
+img {
   border: 3px solid mediumpurple;
 }
