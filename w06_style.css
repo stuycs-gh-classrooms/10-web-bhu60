@@ -1,1 +1,24 @@
-
+h1 {
+  color: blue;
+}
+body {
+  background-color: rgb (50 205 50 / 50%);
+}
+html{
+  background-color: dodgerblue;
+  font-family: Trattello, fantasy;
+}
+ul{
+  width: 115%px;
+  height:115%px;
+  font-weight: bold;
+}
+li{
+  font-size: 20px;
+}
+p{
+  text-align: center;
+}
+a{
+  border: 3px solid mediumpurple;
+}
