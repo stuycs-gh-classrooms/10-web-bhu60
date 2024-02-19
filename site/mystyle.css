@@ -6,7 +6,9 @@ body {
   background-color: rgb(155 250 120);
   padding: 5em;
   border-radius: 5em;
-  margin-left: 6em;
+  margin-left: 4em;
+  margin-right: 4em;
+  margin-top: 3em;
 }
 .navigation,
 .opentab {
