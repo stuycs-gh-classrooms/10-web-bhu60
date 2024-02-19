@@ -46,7 +46,7 @@ h2 {
   display: block;
 }
 p {
-  display: inline;
+  /*display: inline;*/
 }
 a {
   color: rgb(0 25 255)
