@@ -9,6 +9,7 @@ body {
   margin-left: 4em;
   margin-right: 4em;
   margin-top: 3em;
+  display: block;
 }
 .navigation,
 .opentab {
