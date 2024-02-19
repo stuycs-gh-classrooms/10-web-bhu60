@@ -12,7 +12,7 @@ body {
 }
 .navigation,
 .opentab {
-  display: block;
+  display: inline;
 }
 h1 {
   text-align: center;
