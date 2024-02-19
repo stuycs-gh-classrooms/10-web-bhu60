@@ -43,7 +43,7 @@ h2 {
   height: 150%px;
   font-family: "Georgia", serif;
   background-color: rgb(9 176 101 / 40%);
-  display: block;
+  display: inline;
 }
 p {
   /*display: inline;*/
