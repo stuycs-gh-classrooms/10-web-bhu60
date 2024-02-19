@@ -17,13 +17,10 @@ body {
   margin-right: 20px;
 }
 .picturetext {
-  float: left
+  float: right;
   margin-right: 4em;
 }
-.sections {
-  display: block;
-  float: left
-}
+
 h1 {
   text-align: center;
   font-family: "Apple Chancery", cursive;
