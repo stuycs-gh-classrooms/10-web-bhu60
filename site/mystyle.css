@@ -69,3 +69,6 @@ img {
 .picturepicture {
   float: left
 }
+h2 {
+  display: block;
+}
