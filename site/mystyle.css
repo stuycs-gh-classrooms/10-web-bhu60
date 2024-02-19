@@ -18,13 +18,11 @@ body {
 }
 .picturetext {
   text-align: left;
-  margin-right: 1.5em;
+  margin-right: 2em
 }
 .sections {
-  display: inline; 
-  border-bottom-left-radius: inherit;
-  border-bottom-right-radius: inherit;
-  overflow: hidden;  
+  text-align: left;
+  margin-bottom: 20px
 }
 .picturepicture {
   float: left;
@@ -32,14 +30,14 @@ body {
 h1 {
   text-align: center;
   font-family: "Apple Chancery", cursive;
-  height: 150%px
+  height: 150%;
   background-color: rgb(255 92 111 / 50%);
   display: inline;
 }
 ul,
 il {
   margin: auto;
-  height: 200%px;
+  height: 200%;
   font-family: "Apple Chancery", cursive;
   margin-left: 2em;
   background-color: rgb (255 92 111 / 50%);
