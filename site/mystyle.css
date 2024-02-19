@@ -8,11 +8,11 @@ body {
   border-radius: 5em;
   margin-left: 4em;
   margin-right: 4em;
-  margin-top: 3em;
 }
 .navigation,
 .opentab {
   display: inline;
+  margin-left: 10px;
 }
 h1 {
   text-align: center;
