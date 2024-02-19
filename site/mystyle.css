@@ -59,7 +59,8 @@ a {
   color: rgb(0 25 255)
 }
 img {
-  width: 350px;
+  height: 300px;
+  width: auto;
   margin-right: 30px;
 
 }
