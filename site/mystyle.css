@@ -4,8 +4,8 @@ html {
 body {
   width: 140%px;
   background-color: rgb(155 250 120);
-  padding: 50px;
-  border-radius: 2em;
+  padding: 100px;
+  border-radius: 5em;
 }
 .navigation,
 .opentab {
