@@ -23,6 +23,7 @@ il {
   font-family: "Apple Chancery", cursive;
   margin-left: 2em;
   background-color: rgb (255 92 111 / 50%);
+  list-style: none;
 }
 h2 {
   height: 150%px;
