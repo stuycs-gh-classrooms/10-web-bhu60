@@ -64,10 +64,10 @@ img {
 }
 */
 .picturetext {
-  float: right;
-}
-.picturepicture {
 
+}
+img {
+  float: left;
 }
 h2 {
   display: block;
