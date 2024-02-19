@@ -21,6 +21,7 @@ h1 {
   font-family: "Apple Chancery", cursive;
   height: 150%px
   background-color: rgb(255 92 111 / 50%);
+  display: inline;
 }
 ul,
 il {
