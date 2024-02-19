@@ -5,7 +5,7 @@ body {
   text-align: center;
   width: 140%;
   background-color: rgb(155 250 120);
-  padding: 5em;
+  padding: 3em;
   border-radius: 5em;
   margin-left: 4em;
   margin-right: 4em;
@@ -17,14 +17,17 @@ body {
   margin-right: 20px;
 }
 .picturetext {
-
-
+  text-align: left;
+  margin-right: 1.5em;
 }
 .sections {
-
+  display: inline; 
+  border-bottom-left-radius: inherit;
+  border-bottom-right-radius: inherit;
+  overflow: hidden;  
 }
 .picturepicture {
-
+  float: left;
 }
 h1 {
   text-align: center;
