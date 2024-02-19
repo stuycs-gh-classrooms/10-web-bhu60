@@ -39,8 +39,8 @@ h2 {
   display: block;
 }
 p {
-  display: block;
-  float: left;
+  display: inline;
+  float: right;
 }
 a {
   color: rgb(0 25 255)
