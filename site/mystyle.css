@@ -64,5 +64,11 @@ img {
   margin-right: 30px;
 
 }
-
-
+#Anschluss_Image {
+  height: 300px;
+  width: 500px;
+}
+#Reparations_Image {
+  height: 300px;
+  width: 500px;
+}
