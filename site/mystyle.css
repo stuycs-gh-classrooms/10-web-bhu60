@@ -51,6 +51,7 @@ h2 {
   font-family: "Georgia", serif;
   background-color: rgb(9 176 101 / 40%);
   display: inline;
+  clear: left;
 }
 p {
   font-size: 35px;
