@@ -4,7 +4,7 @@ html {
 body {
   width: 140%px;
   background-color: rgb(155 250 120);
-  padding: 100px;
+  padding: 5em;
   border-radius: 5em;
 }
 .navigation,
