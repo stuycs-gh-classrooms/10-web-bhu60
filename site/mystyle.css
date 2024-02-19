@@ -39,7 +39,7 @@ h2 {
   display: block;
 }
 p {
-  
+  float: right;
 }
 a {
   color: rgb(0 25 255)
