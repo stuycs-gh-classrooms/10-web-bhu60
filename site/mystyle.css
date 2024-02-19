@@ -3,7 +3,7 @@ html {
 }
 body {
   text-align: center;
-  width: 140%px;
+  width: 140%;
   background-color: rgb(155 250 120);
   padding: 5em;
   border-radius: 5em;
@@ -19,6 +19,7 @@ body {
 .picturetext {
   float: right;
   margin-right: 4em;
+  text-align: end;
 }
 
 h1 {
@@ -42,7 +43,7 @@ il {
 h2 {
   height: 150%px;
   font-family: "Georgia", serif;
-  background-color: rgb(9 176 101 / 40%)
+  background-color: rgb(9 176 101 / 40%);
   display: block;
 }
 p {
