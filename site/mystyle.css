@@ -40,8 +40,7 @@ h2 {
   display: block;
 }
 p {
-  /*display: inline;*/
-  float: right;
+  display: inline;
 }
 a {
   color: rgb(0 25 255)
