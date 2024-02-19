@@ -22,12 +22,14 @@ h1 {
 }
 ul,
 il {
+  margin: auto;
   height: 200%px;
   font-family: "Apple Chancery", cursive;
   margin-left: 2em;
   background-color: rgb (255 92 111 / 50%);
   list-style: none;
   padding: 0;
+  text-align: center;
 }
 h2 {
   height: 150%px;
