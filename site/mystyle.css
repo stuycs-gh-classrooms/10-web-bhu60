@@ -7,24 +7,23 @@ body {
   text-align: center;
   width: 80%;
   background-color: rgb(155 250 120);
-  padding: 48px;
-  border-radius: 80px;
-  margin-left: 160px;
-  margin-right: 160px;
-  margin-top: 60px;
+  padding: 3em;
+  border-radius: 3em;
+  margin-left: 4em;
+  margin-right: 4em;
+  margin-top: 5em;
 }
 .navigation,
 .opentab {
   display: inline;
-  margin-right: 20px;
 }
 .picturetext {
   text-align: left;
-  margin-right: 32px;
+  margin-right: 2em;
 }
 .sections {
   text-align: left;
-  margin-bottom: 20px;
+  margin-bottom: 1.5em;
 }
 .picturepicture {
   float: left;
@@ -41,14 +40,14 @@ il {
   margin: auto;
   height: 200%;
   font-family: "Apple Chancery", cursive;
-  margin-left: 32px;
+  margin-left: 2em;
   background-color: rgb (255 92 111 / 50%);
   list-style: none;
   padding: 0;
   text-align: left;
 }
 h2 {
-  height: 150%px;
+  height: 125%;
   font-family: "Georgia", serif;
   background-color: rgb(9 176 101 / 40%);
   display: inline;
@@ -56,7 +55,7 @@ h2 {
   overflow: auto;
 }
 p {
-  font-size: 35px;
+  font-size: 2.1em;
   overflow: auto;
 }
 a {
@@ -64,21 +63,17 @@ a {
 }
 img {
   height: auto;
-  width: 500px;
-  margin-right: 30px;
+  width: 31.25em;
+  margin-right: 1.8em;
   overflow: auto;
 
 }
 #Anschluss_Image {
-  height: 300px;
-  width: 500px;
+  height: 18.75em;
+  width: 31.25em;
 }
 
 #Reparations_Image {
-  height: 300px;
-  width: 500px;
-}
-#Reparations_Image {
-  height: 300px;
-  width: 600px;
+  height: 18.72em;
+  width: 31.25em;
 }
