@@ -4,12 +4,11 @@ html {
 }
 body {
   text-align: center;
-  width: 80%;
+  width: 85%;
   background-color: rgb(155 250 120);
   padding: 3em;
   border-radius: 3em;
-  margin-left: 4em;
-  margin-right: 4em;
+  margin: auto;
   margin-top: 5em;
 }
 .navigation,
@@ -66,4 +65,7 @@ img {
   margin-right: 1.8em;
   overflow: auto;
 
+}
+#Reparations_Image {
+  height: 20em;
 }
