@@ -5,7 +5,7 @@ html {
 }
 body {
   text-align: center;
-  width: 140%;
+  width: 80%;
   background-color: rgb(155 250 120);
   padding: 48px;
   border-radius: 80px;
@@ -64,14 +64,19 @@ a {
 }
 img {
   height: auto;
-  width: 600px;
+  width: 500px;
   margin-right: 30px;
   overflow: auto;
 
 }
 #Anschluss_Image {
   height: 300px;
-  width: 600px;
+  width: 500px;
+}
+
+#Reparations_Image {
+  height: 300px;
+  width: 500px;
 }
 #Reparations_Image {
   height: 300px;
