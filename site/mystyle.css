@@ -16,20 +16,26 @@ body {
   display: inline;
   font-family: "serif";
   font-size: 25px;
+  margin-left: .3em;
+  color: darkviolet;
+  font-weight: bold;
 }
 
 .opentab {
-  background-color: rgb(49 181 181);
+  background-color: rgb(82 162 252);
   padding-top: 2em;
   padding-left: 0.5em;
   padding-right: 0.5em;
+  padding-bottom: 0.8em;
+  border-radius: 1em 1em 1em 1em;
 }
 
 nav{
   text-align: center;
-  background-color: rgb(49 181 181);
+  background-color: rgb(139 192 252);
   border-radius: inherit;
   padding: 1.2em;
+
 }
 
 .picturetext {
