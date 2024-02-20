@@ -7,11 +7,11 @@ body {
   text-align: center;
   width: 140%;
   background-color: rgb(155 250 120);
-  padding: 3em;
-  border-radius: 5em;
-  margin-left: 10em;
-  margin-right: 10em;
-  margin-top: 5em;
+  padding: 48px;
+  border-radius: 80px;
+  margin-left: 160px;
+  margin-right: 160px;
+  margin-top: 60px;
 }
 .navigation,
 .opentab {
@@ -20,11 +20,11 @@ body {
 }
 .picturetext {
   text-align: left;
-  margin-right: 2em
+  margin-right: 32px;
 }
 .sections {
   text-align: left;
-  margin-bottom: 20px
+  margin-bottom: 20px;
 }
 .picturepicture {
   float: left;
@@ -41,7 +41,7 @@ il {
   margin: auto;
   height: 200%;
   font-family: "Apple Chancery", cursive;
-  margin-left: 2em;
+  margin-left: 32px;
   background-color: rgb (255 92 111 / 50%);
   list-style: none;
   padding: 0;
