@@ -9,12 +9,29 @@ body {
   padding: 3em;
   border-radius: 3em;
   margin: auto;
-  margin-top: 5em;
+  margin-top: 4em;
 }
 .navigation,
 .opentab {
   display: inline;
+  font-family: "serif";
+  font-size: 25px;
 }
+
+.opentab {
+  background-color: rgb(49 181 181);
+  padding-top: 2em;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+}
+
+nav{
+  text-align: center;
+  background-color: rgb(49 181 181);
+  border-radius: inherit;
+  padding: 1.2em;
+}
+
 .picturetext {
   text-align: left;
   margin-right: 2em;
@@ -33,17 +50,21 @@ h1 {
   background-color: rgb(255 92 111 / 50%);
   display: inline;
 }
-ul,
-il {
+ul{
   margin: auto;
   height: 200%;
   font-family: "Apple Chancery", cursive;
   margin-left: 2em;
   background-color: rgb (255 92 111 / 50%);
   list-style: none;
-  padding: 0;
   text-align: left;
 }
+
+li {
+  display: inline;
+  padding: 3em;
+}
+
 h2 {
   height: 125%;
   font-family: "Georgia", serif;
