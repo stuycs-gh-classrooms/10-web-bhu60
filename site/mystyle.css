@@ -1,7 +1,6 @@
 html {
   background-color: rgb(82 168 252);
-  font-size: 1.5em;
-
+  font-size: 1em;
 }
 body {
   text-align: center;
@@ -55,7 +54,7 @@ h2 {
   overflow: auto;
 }
 p {
-  font-size: 2.1em;
+  font-size: 1.5em;
   overflow: auto;
 }
 a {
@@ -63,17 +62,8 @@ a {
 }
 img {
   height: auto;
-  width: 31.25em;
+  width: 25em;
   margin-right: 1.8em;
   overflow: auto;
 
-}
-#Anschluss_Image {
-  height: 18.75em;
-  width: 31.25em;
-}
-
-#Reparations_Image {
-  height: 18.72em;
-  width: 31.25em;
 }
