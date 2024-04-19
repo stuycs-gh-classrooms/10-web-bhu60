@@ -1,1 +1,25 @@
+html {
+  background-color: rgb(138 173 255);
+  font-size: 2em;
+}
 
+h1{
+  font-size: 5em;
+  font-family: "DejaVu Sans Mono", monospace;
+}
+
+h2{
+  font-size: 3.2em;
+  font-family: fantasy;
+}
+
+body{
+  text-align: center;
+  background-color: rgb(122 124 245);
+  margin: auto;
+  margin-top: 3em;
+  font-family: "Snell Roundhand", cursive;
+  overflow: auto;
+  display: inline;
+  clear: left
+}
