@@ -57,6 +57,43 @@
         <ol>Altered the widths of the triangle so that right after the first recusion, it turns to a width of 4; then back to 1 after it moves forward; back to 4 after the second recursion; and finally back to 1 after the third recursion</ol>
         <ol>Inserted another recursion step after the first left turn of 60 degrees</ol>
       </ul>
+      <pre>
+        <code>
+def triangle(t, size):
+    t.lt(60)
+    t.fd(size)
+    t.rt(120)
+    t.fd(size)
+    t.rt(120)
+    t.fd(size)
+    t.rt(180)
+
+def sierpinski(t, depth, size):
+    t.speed(10)
+    if depth == 1:
+        triangle(t, size)
+    else:
+        t.color("blue")
+        sierpinski(t, depth-1, size/2)
+        t.width(4)
+        t.fd(size/2)
+        t.width(1)
+        sierpinski(t, depth-1, size/2)
+        t.bk(size/2)
+        t.lt(60)
+        t.width(4)
+        t.color("red")
+        sierpinski(t, depth-1, size/2)
+        t.color("blue")
+        t.fd(size/2)
+        t.width(1)
+        t.rt(60)
+        sierpinski(t, depth-1, size/2)
+        t.rt(120)
+        t.fd(size/2)
+        t.lt(120)
+        </code>
+      </pre>
     </div>
     <div>
       <h2>Tree</h2>
