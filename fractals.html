@@ -20,13 +20,37 @@
         <ol>Created a random number plus or minus 10 from the original 60 degree angle and modified the angle</ol>
         <ol>Created a random number such that 1 in 5 lines disappear</ol>
       </ul>
+      <pre>
+        <code>
+          def koch_curve(t, depth, length):
+              t.pd()
+              if depth == 1:
+                  rand = random.randrange(5)
+                  if rand != 1:
+                      t.fd(length)
+                else:
+                    t.pu()
+                    t.fd(length)
+                    t.pd()
+              else:
+                  low = random.randrange(50, 70)
+                  high = random.randrange(110,130)
+                  koch_curve(t,depth - 1,length)
+                  t.lt(low)
+                  koch_curve(t,depth - 1,length)
+                  t.rt(high)
+                  koch_curve(t,depth - 1,length)
+                  t.lt(low)
+                  koch_curve(t,depth - 1,length)
+        </code>
+      </pre>
     </div>
     <div>
       <h2>Sierpinski Triangle</h2>
+      <p>Standard Sierpinski Triangle:</p>
       <img src="images/StandardTriangle.png">
       <p>Modified Sierpinski Triangle</p>
       <img src="images/ModifiedTriangle.png">
-      <p>Standard Sierpinski Triangle:</p>
       <p>The differences are:</p>
       <ul>
         <ol>The triangle originally starts off blue and after the second recursion iteration, it turns red. After the third, it returns to blue</ol>
