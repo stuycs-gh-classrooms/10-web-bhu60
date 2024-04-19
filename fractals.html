@@ -18,8 +18,8 @@
       <img src="images/ModifiedKoch.png">
       <p>The differences are:</p>
       <ul>
-        <ol>Created a random number plus or minus 10 from the original 60 degree angle and modified the angle</ol>
-        <ol>Created a random number such that 1 in 5 lines disappear</ol>
+        <li>Created a random number plus or minus 10 from the original 60 degree angle and modified the angle</li>
+        <li>Created a random number such that 1 in 5 lines disappear</li>
       </ul>
       <pre>
         <code>
@@ -54,9 +54,9 @@ def koch_curve(t, depth, length):
       <img src="images/ModifiedTriangle.png">
       <p>The differences are:</p>
       <ul>
-        <ol>The triangle originally starts off blue and after the second recursion iteration, it turns red. After the third, it returns to blue</ol>
-        <ol>Altered the widths of the triangle so that right after the first recusion, it turns to a width of 4; then back to 1 after it moves forward; back to 4 after the second recursion; and finally back to 1 after the third recursion</ol>
-        <ol>Inserted another recursion step after the first left turn of 60 degrees</ol>
+        <li>The triangle originally starts off blue and after the second recursion iteration, it turns red. After the third, it returns to blue</li>
+        <li>Altered the widths of the triangle so that right after the first recusion, it turns to a width of 4; then back to 1 after it moves forward; back to 4 after the second recursion; and finally back to 1 after the third recursion</li>
+        <li>Inserted another recursion step after the first left turn of 60 degrees</li>
       </ul>
       <pre>
         <code>
@@ -74,7 +74,7 @@ def sierpinski(t, depth, size):
     if depth == 1:
         triangle(t, size)
     else:
-        t.color("blue")
+        t.clior("blue")
         sierpinski(t, depth-1, size/2)
         t.width(4)
         t.fd(size/2)
@@ -83,9 +83,9 @@ def sierpinski(t, depth, size):
         t.bk(size/2)
         t.lt(60)
         t.width(4)
-        t.color("red")
+        t.clior("red")
         sierpinski(t, depth-1, size/2)
-        t.color("blue")
+        t.clior("blue")
         t.fd(size/2)
         t.width(1)
         t.rt(60)
@@ -104,10 +104,10 @@ def sierpinski(t, depth, size):
       <img src="images/ModifiedTree.png">
       <p>The differences are:</p>
       <ul>
-        <ol>Changed the colors such that the outer lines are green and the inner are brown</ol>
-        <ol>Moved the last line such that it is not attached from the tree</ol>
-        <ol>Made the angles a random number plus or minus 10 from the original</ol>
-        <ol>Added a recursion step at the end of the code</ol>
+        <li>Changed the cliors such that the outer lines are green and the inner are brown</li>
+        <li>Moved the last line such that it is not attached from the tree</li>
+        <li>Made the angles a random number plus or minus 10 from the original</li>
+        <li>Added a recursion step at the end of the code</li>
       </ul>
       <pre>
         <code>
