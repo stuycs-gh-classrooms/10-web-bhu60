@@ -12,9 +12,9 @@
     <h1>Fractals</h1>
     <div>
       <h2>Koch Curve</h2>
-      <p>Standard Koch Curve:</p>
+      <p>Standard Koch Curve:</p> <pre><code>koch_curve(t,4,20)</code></pre>
       <img src="images/StandardKoch.png">
-      <p>Modified Koch Curve:</p>
+      <p>Modified Koch Curve:</p><pre><code>koch_curve(t,4,20)</code></pre>
       <img src="images/ModifiedKoch.png">
       <p>The differences are:</p>
       <ul>
@@ -48,9 +48,9 @@ def koch_curve(t, depth, length):
     </div>
     <div>
       <h2>Sierpinski Triangle</h2>
-      <p>Standard Sierpinski Triangle:</p>
+      <p>Standard Sierpinski Triangle:</p><pre><code>sierpinski(t,5,200)</code></pre>
       <img src="images/StandardTriangle.png">
-      <p>Modified Sierpinski Triangle:</p>
+      <p>Modified Sierpinski Triangle:</p><pre><code>sierpinski(t,5,500)</code></pre>
       <img src="images/ModifiedTriangle.png">
       <p>The differences are:</p>
       <ul>
@@ -98,9 +98,9 @@ def sierpinski(t, depth, size):
     </div>
     <div>
       <h2>Tree</h2>
-      <p>Standard Tree:</p>
+      <p>Standard Tree:</p><pre><code>tree(t,4,50,20)(</code></pre>
       <img src="images/StandardTree.png">
-      <p>Modified Tree:</p>
+      <p>Modified Tree:</p><pre><code>tree(t,4,50,20)</code></pre>
       <img src="images/ModifiedTree.png">
       <p>The differences are:</p>
       <ul>
@@ -111,26 +111,41 @@ def sierpinski(t, depth, size):
       </ul>
       <pre>
         <code>
-def koch_curve(t, depth, length):
-    t.pd()
-    if depth == 1:
-        rand = random.randrange(5)
-        if rand != 1:
-            t.fd(length)
+def tree(t, depth, size, angle):
+    t.width(4)
+    color = ""
+    if depth == 2 or depth == 1 or depth == 0:
+        rand = random.randrange(2)
+        t.color("green")
+        color = "green"
+    else:
+        t.color("brown")
+        color = "brown"
+    if depth == 0:
+        if color == "brown":
+            t.fd(size)
+            t.bk(size)
         else:
             t.pu()
-            t.fd(length)
+            t.fd(size)
             t.pd()
+            t.fd(size)
+            t.bk(size)
+            t.pu()
+            t.bk(size)
+            t.pd()
+            t.color("brown")
+            color = "brown"
     else:
-        low = random.randrange(50, 70)
-        high = random.randrange(110,130)
-        koch_curve(t,depth - 1,length)
-        t.lt(low)
-        koch_curve(t,depth - 1,length)
-        t.rt(high)
-        koch_curve(t,depth - 1,length)
-        t.lt(low)
-        koch_curve(t,depth - 1,length)
+        rand = random.randrange(angle - 10, angle + 10)
+        t.fd(size)
+        t.rt(rand)
+        tree(t, depth-1, size, angle)
+        t.lt(2 * rand)
+        tree(t, depth-1, size, angle)
+        t.rt(rand)
+        t.bk(size)
+        tree(t, depth-1, size, angle)
         </code>
       </pre>
     </div>
