@@ -22,5 +22,5 @@ body{
   overflow: auto;
   display: inline;
   clear: left
-  
+  border-radius: 2em;
 }
