@@ -1,15 +1,15 @@
 html {
-  background-color: rgb(138 173 255);
-  font-size: 2em;
+  background-color: rgb(224 163 255);
+  font-size: 1em;
 }
 
 h1{
-  font-size: 5em;
+  font-size: 3em;
   font-family: "DejaVu Sans Mono", monospace;
 }
 
 h2{
-  font-size: 3.2em;
+  font-size: 2em;
   font-family: fantasy;
 }
 
@@ -22,4 +22,5 @@ body{
   overflow: auto;
   display: inline;
   clear: left
+  
 }
