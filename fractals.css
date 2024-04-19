@@ -2,25 +2,46 @@ html {
   background-color: rgb(224 163 255);
   font-size: 1em;
 }
-
+body{
+  text-align: center;
+  background-color: rgb(122 124 245);
+  margin-top: 3em;
+  font-family: "Snell Roundhand", cursive;
+  overflow: auto;
+  clear: left;
+  border-radius: 2em;
+  padding: 20px;
+  border: 3px solid black;
+  width: 30%:
+  padding: 3em;
+  margin-left: 6%;
+  margin-right: 6%
+}
 h1{
+  font-size: 4.5em;
+  font-family: "DejaVu Sans Mono", monospace;
+}
+
+h2{
   font-size: 3em;
   font-family: fantasy;
 }
 
-h2{
-  font-size: 2em;
-  font-family: "DejaVu Sans Mono", monospace;
+p, pre, ul {
+  font-size: 1.5em;
 }
 
-body{
-  text-align: center;
-  background-color: rgb(122 124 245);
-  margin: auto;
-  margin-top: 3em;
-  font-family: "Snell Roundhand", cursive;
-  overflow: auto;
-  display: inline;
-  clear: left
-  border-radius: 2em;
+pre {
+  text-align: left;
+  margin-left: 15%;
+}
+
+ul {
+  text-align: left;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+p {
+  font-size: 2em;
 }
