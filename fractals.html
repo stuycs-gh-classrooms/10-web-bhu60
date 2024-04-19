@@ -18,7 +18,7 @@
       <img src="images/ModifiedKoch.png">
       <p>The differences are:</p>
       <ul>
-        <li>Created a random number plus or minus 10 from the original 60 degree angle and modified the angle</li>
+        <li>Created a random angle between 50 and 70 degrees</li>
         <li>Created a random number such that 1 in 5 lines disappear</li>
       </ul>
       <pre>
@@ -54,9 +54,9 @@ def koch_curve(t, depth, length):
       <img src="images/ModifiedTriangle.png">
       <p>The differences are:</p>
       <ul>
-        <li>The triangle originally starts off blue and after the second recursion iteration, it turns red. After the third, it returns to blue</li>
-        <li>Altered the widths of the triangle so that right after the first recusion, it turns to a width of 4; then back to 1 after it moves forward; back to 4 after the second recursion; and finally back to 1 after the third recursion</li>
-        <li>Inserted another recursion step after the first left turn of 60 degrees</li>
+        <li>The triangle alternates between blue and red after each recursion case. It starts and ends off with blue.</li>
+        <li>Alternates between a width of 4 and 1. It begins with a width of 4 and ends wit ha width of 1</li>
+        <li>Inserted another recursion step after the first 60 degree left turn</li>
       </ul>
       <pre>
         <code>
@@ -104,9 +104,9 @@ def sierpinski(t, depth, size):
       <img src="images/ModifiedTree.png">
       <p>The differences are:</p>
       <ul>
-        <li>Changed the cliors such that the outer lines are green and the inner are brown</li>
+        <li>Changed the colors such that the outer lines are green and the inner are brown</li>
         <li>Moved the last line such that it is not attached from the tree</li>
-        <li>Made the angles a random number plus or minus 10 from the original</li>
+        <li>Made the angles a random number 10 away from the given angle</li>
         <li>Added a recursion step at the end of the code</li>
       </ul>
       <pre>
