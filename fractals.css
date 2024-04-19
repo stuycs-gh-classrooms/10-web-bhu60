@@ -5,12 +5,12 @@ html {
 
 h1{
   font-size: 3em;
-  font-family: "DejaVu Sans Mono", monospace;
+  font-family: fantasy;
 }
 
 h2{
   font-size: 2em;
-  font-family: fantasy;
+  font-family: "DejaVu Sans Mono", monospace;
 }
 
 body{
