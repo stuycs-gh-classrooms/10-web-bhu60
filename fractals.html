@@ -22,26 +22,26 @@
       </ul>
       <pre>
         <code>
-          def koch_curve(t, depth, length):
-              t.pd()
-              if depth == 1:
-                  rand = random.randrange(5)
-                  if rand != 1:
-                      t.fd(length)
-                else:
-                    t.pu()
+        def koch_curve(t, depth, length):
+            t.pd()
+            if depth == 1:
+                rand = random.randrange(5)
+                if rand != 1:
                     t.fd(length)
-                    t.pd()
               else:
-                  low = random.randrange(50, 70)
-                  high = random.randrange(110,130)
-                  koch_curve(t,depth - 1,length)
-                  t.lt(low)
-                  koch_curve(t,depth - 1,length)
-                  t.rt(high)
-                  koch_curve(t,depth - 1,length)
-                  t.lt(low)
-                  koch_curve(t,depth - 1,length)
+                  t.pu()
+                  t.fd(length)
+                  t.pd()
+            else:
+                low = random.randrange(50, 70)
+                high = random.randrange(110,130)
+                koch_curve(t,depth - 1,length)
+                t.lt(low)
+                koch_curve(t,depth - 1,length)
+                t.rt(high)
+                koch_curve(t,depth - 1,length)
+                t.lt(low)
+                koch_curve(t,depth - 1,length)
         </code>
       </pre>
     </div>
