@@ -24,7 +24,7 @@ HTML_FOOTER = """
 
 data = cgi.FieldStorage()
 
-if ('option' in data):
+if 'option' in data:
     page = data['option'].value
 
 html= HTML_HEADER
