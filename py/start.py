@@ -26,7 +26,6 @@ data = cgi.FieldStorage()
 name = 'Your Name'
 if ('name' in data):
     name = data['name'].value
-option = 'option'
 if ('option' in data):
     page = data['option'].value
 
