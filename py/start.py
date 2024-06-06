@@ -26,6 +26,8 @@ data = cgi.FieldStorage()
 
 if 'option' in data:
     page = data['option'].value
+else:
+    page = 'none'
 
 html= HTML_HEADER
 html+= '<br><a href="' + str(page) + '.html">yay</a>'
