@@ -23,15 +23,12 @@ HTML_FOOTER = """
 
 
 data = cgi.FieldStorage()
-name = 'Your Name'
-if ('name' in data):
-    name = data['name'].value
-guide = 'Chiron'
-if ('guide' in data):
-    bgcolor = data['bgcolor'].value
+
+option = 'option'
+if ('option' in data):
+    page = data['page'].value
 
 html= HTML_HEADER
-html+= '<h1>Welcome to Camp-Half-Blood ' + name + '</h1>'
-html+= '<br><a href="start.html">Try Again</a>'
+html+= '<br><a href="' + page + '.html">Try Again</a>'
 html+= HTML_FOOTER
 print(html)
