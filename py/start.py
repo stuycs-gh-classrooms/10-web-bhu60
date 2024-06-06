@@ -29,6 +29,6 @@ if ('option' in data):
 
 html= HTML_HEADER
 html+= '<h1>Welcome to Camp-Half-Blood ' + name + '</h1>'
-html+= '<br><a href="' + page + '.html">yay</a>'
+html+= '<br><a href="' + str(page) + '.html">yay</a>'
 html+= HTML_FOOTER
 print(html)
