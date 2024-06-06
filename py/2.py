@@ -26,7 +26,9 @@ data = cgi.FieldStorage()
 
 option = 'option'
 if ('option' in data):
-    page = data['page'].value
+    page = data['option'].value
+else:
+    page = 'none'
 
 html= HTML_HEADER
 html+= '<br><a href="' + page + '.html">Try Again</a>'
