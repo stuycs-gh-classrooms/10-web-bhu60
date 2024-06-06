@@ -23,9 +23,7 @@ HTML_FOOTER = """
 
 
 data = cgi.FieldStorage()
-name = 'Your Name'
-if ('name' in data):
-    name = data['name'].value
+
 if ('option' in data):
     page = data['option'].value
 
